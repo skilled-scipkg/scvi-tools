@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "scvi-tools-inputs-and-modeling",
+    "scvi-tools-getting-started",
+    "scvi-tools-examples-and-tutorials",
+    "scvi-tools-user-guide",
+    "scvi-tools-simulation-workflows",
+    "scvi-tools-api-and-scripting"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/scvi-tools-inputs-and-modeling.md",
+    "skills/.evidence/scvi-tools-getting-started.md",
+    "skills/.evidence/scvi-tools-examples-and-tutorials.md",
+    "skills/.evidence/scvi-tools-user-guide.md",
+    "skills/.evidence/scvi-tools-simulation-workflows.md",
+    "skills/.evidence/scvi-tools-api-and-scripting.md"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "compiled_package_id": "scvi-tools",
+  "evidence": {
+    "core_skills": [
+      "scvi-tools-inputs-and-modeling",
+      "scvi-tools-getting-started",
+      "scvi-tools-examples-and-tutorials",
+      "scvi-tools-user-guide",
+      "scvi-tools-simulation-workflows",
+      "scvi-tools-api-and-scripting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/scvi-tools-inputs-and-modeling.md",
+      "skills/.evidence/scvi-tools-getting-started.md",
+      "skills/.evidence/scvi-tools-examples-and-tutorials.md",
+      "skills/.evidence/scvi-tools-user-guide.md",
+      "skills/.evidence/scvi-tools-simulation-workflows.md",
+      "skills/.evidence/scvi-tools-api-and-scripting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary documentation lives under docs/ (api, user_guide, developer, tutorials).",
+      "docs/tutorials/notebooks is a git submodule path in this checkout and may be empty unless initialized."
+    ],
+    "package_name": "scvi-tools",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/tutorials",
+      "docs/tutorials/notebooks"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools",
+  "validation": {
+    "core_skills_checked": [
+      "scvi-tools-inputs-and-modeling",
+      "scvi-tools-getting-started",
+      "scvi-tools-examples-and-tutorials",
+      "scvi-tools-user-guide",
+      "scvi-tools-simulation-workflows",
+      "scvi-tools-api-and-scripting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-user-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/scvi-tools-scvi-tools/skills/scvi-tools-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "scvi-tools-index"
+    ],
+    "ok": false,
+    "skills_total": 10,
+    "source_links_total": 90,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
